@@ -1,0 +1,22 @@
+.root {
+  width: 300px;
+  height: 300px;
+  text-decoration: none;
+  padding: 18px 10px;
+  border: 1px solid black;
+  transition: box-shadow 200ms ease-in-out;
+}
+
+.root:hover {
+  box-shadow: 4px 4px 4px gray;
+}
+
+.title {
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.description {
+  font-size: 14px;
+}
